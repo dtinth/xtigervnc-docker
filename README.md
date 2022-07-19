@@ -13,6 +13,10 @@ TigerVNC’s [Xvnc](https://tigervnc.org/doc/Xvnc.html) provides both X11 and VN
 - `:6000` - X11 server
 - `:5900` - VNC server
 
+## Environment Variables
+
+- `VNC_GEOMETRY` - Set to `<width>x<height>` of the desktop. Default 1280x800
+
 ## Reference
 
 <https://www.digitalocean.com/community/tutorials/how-to-remotely-access-gui-applications-using-docker-and-caddy-on-debian-9>
