@@ -15,7 +15,7 @@ TigerVNC’s [Xvnc](https://tigervnc.org/doc/Xvnc.html) provides both X11 and VN
 
 ## Environment Variables
 
-- `VNC_GEOMETRY` - Set to `<width>x<height>` of the desktop. Default 1280x800
+- `VNC_GEOMETRY` - Set to `<width>x<height>` of the desktop. Default 1280x800.
 
 ## Reference
 
