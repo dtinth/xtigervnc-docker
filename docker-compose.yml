@@ -1,6 +1,8 @@
 services:
   display:
     build: .
+    volumes:
+      - ./app:/app:ro
   novnc:
     image: geek1011/easy-novnc
     command: -a :5800 -h display --no-url-password
@@ -8,5 +10,10 @@ services:
       - 5800:5800
   xeyes:
     image: fr3nd/xeyes
+    environment:
+      DISPLAY: display:0
+  shell:
+    image: debian
+    command: sleep inf
     environment:
       DISPLAY: display:0
